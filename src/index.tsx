@@ -12,7 +12,6 @@ interface AudioObject {
 
 interface AudioPlayerProps { 
   audioObjectArrays: AudioObject[],
-  id: number
 }
 
 const useStyles = makeStyles(() => ({
