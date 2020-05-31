@@ -2,7 +2,7 @@
   "name": "audio-player-brain-beats",
   "version": "1.0.3",
   "description": "Audio Player for Brain Beats org",
-  "main": "src/index.tsx",
+  "main": "index.js",
   "repository": "https://github.com/hungnguyen1895/audio-player.git",
   "author": "Hung Nguyen <hn9581@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,6 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "typescript": "^3.9.3"
   },
   "dependencies": {
     "@material-ui/core": "^4.10.0",
