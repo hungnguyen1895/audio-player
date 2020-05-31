@@ -1,7 +1,8 @@
 import * as React from 'react';
 import axios from 'axios';
-// import classes from '*.module.css';
 import { makeStyles } from '@material-ui/core/styles';
+
+// Todo: add width as a props for user to use
 
 interface AudioObject {
   title: string,
