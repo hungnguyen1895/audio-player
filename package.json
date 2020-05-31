@@ -1,6 +1,6 @@
 {
   "name": "audio-player-brain-beats",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Audio Player for Brain Beats org",
   "main": "lib/index.js",
   "repository": "https://github.com/hungnguyen1895/audio-player.git",
