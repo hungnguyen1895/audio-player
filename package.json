@@ -1,6 +1,6 @@
 {
   "name": "audio-player-brain-beats",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Audio Player for Brain Beats org",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
