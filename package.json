@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "Audio Player for Brain Beats org",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/hungnguyen1895/audio-player.git",
   "author": "Hung Nguyen <hn9581@gmail.com>",
   "license": "MIT",
