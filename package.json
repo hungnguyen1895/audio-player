@@ -1,6 +1,6 @@
 {
   "name": "audio-player-brain-beats",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Audio Player for Brain Beats org",
   "main": "index.js",
   "repository": "https://github.com/hungnguyen1895/audio-player.git",
@@ -9,8 +9,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "axios": "^0.19.2",
