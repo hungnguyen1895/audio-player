@@ -1,17 +1,35 @@
-# Audio Player for Brain beats Web and Desktop Apps
+# brainbeat-audio-player
 
-# How to use the package
-
-This package is for React 16.13.1
-
+# Installation
+React: 13.10.1
 ```
-<AudioPlayer audioObjectArrays=input />
+npm i brainbeats-audio-player
+```
+or
+```
+yarn add brainbeats-audio-player
+```
 
-Where input is an array of audio object that has:
-{
+# Properties for the component
+style?: React.CSSProperties
+audioObjectArray: AudioObject[]
+
+where AudioObject is:
+interface AudioObject {
   title: string,
   authorName: string,
   imageUrl: string,
   audioUrl: string
+}
+
+# Usage
+```
+import AudioPlayer from 'brainbeats-audio-player';
+
+const Player = () => {
+  <AudioPlayer 
+    style={{textAlign: 'center', color: 'white', width: '100%'}} 
+    audioObjectArray={audioObjectArray} 
+  />
 }
 ```
